@@ -1,0 +1,6 @@
+# C++ build artifacts
+InferQueue-lab/labs/cpp_check/ownership
+InferQueue-lab/labs/cpp_check/safe_counter
+InferQueue-lab/labs/cpp_check/safe_counter_tsan
+InferQueue-lab/labs/cpp_check/build/
+*.o
