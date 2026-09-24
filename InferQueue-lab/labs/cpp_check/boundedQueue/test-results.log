@@ -1,0 +1,7 @@
+PASS invalid configuration
+PASS 1000 numbered task results
+PASS exception propagation and worker recovery
+PASS repeated close and rejected submission
+PASS destructor drains 1000 tasks and joins workers
+PASS close wakes blocked submitter and drains accepted tasks
+ALL 6 TESTS PASSED
