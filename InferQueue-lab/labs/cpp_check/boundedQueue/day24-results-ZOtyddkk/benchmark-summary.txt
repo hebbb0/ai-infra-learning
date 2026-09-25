@@ -1,0 +1,11 @@
+tasks=64,queue_capacity=16,repetitions=5,cpu_iterations=3000000,wait_ms=10
+timing includes submission, queueing, execution, result collection
+timing excludes pool construction/destruction; one warmup per configuration
+wait_simulated uses sleep_for, not real disk or network IO
+workload,workers,median_ms,tasks_per_second,speedup_vs_1_worker
+cpu,1,289.134,221.351,1.000
+cpu,2,144.626,442.519,1.999
+cpu,4,77.143,829.632,3.748
+wait_simulated,1,656.172,97.535,1.000
+wait_simulated,2,331.033,193.334,1.982
+wait_simulated,4,164.411,389.268,3.991
